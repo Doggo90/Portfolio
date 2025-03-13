@@ -10,10 +10,15 @@
 <body>
     <style>
         body {
+            padding:0;
+            margin: 0;
             background-image: url(../background.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
+        }
+        .nav-link:focus {
+        @apply bg-blue-700 text-white md:bg-transparent md:text-blue-700 dark:text-white md:dark:text-blue-500;
         }
     </style>
 
