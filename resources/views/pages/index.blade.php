@@ -78,29 +78,40 @@
             </div>
         </div>
     </div>
-    <div class="min-h-screen flex flex-col items-center justify-center bg-lime-100 gap-y-8 p-8">
-        <div class="max-w-screen-xl text-center">
-            <div class="flex justify-center items-start gap-x-8">
-                <h1 class="text-4xl">EDUCATION</h1>
+    <div class="h-screen not-only:flex flex-col justify-between items-center bg-lime-100 p-16">
+        <div class="mx-auto max-w-screen-lg">
+            <div class="w-full flex">
+                <div class="text-left flex ">
+                    <h1 class="text-4xl">EDUCATION</h1>
+                </div>
                 <div class="text-left">
                     <h1 class="text-2xl">BS in Information Technology</h1>
                     <h1 class="text-2xl">Cavite State University</h1>
                     <h1 class="text-2xl">May 2025</h1>
                 </div>
             </div>
-        </div>
-        <hr>
-        <div class="max-w-screen-xl text-center">
-            <div class="flex justify-center items-start gap-x-8">
-                <h1 class="text-4xl">EXPERIENCE</h1>
+            <div class="max-w-screen-xl w-full flex justify-center items-start gap-x-8">
                 <div class="text-left">
-                    <h1 class="text-2xl">Software Developer Intern</h1>
-                    <h1 class="text-2xl">ABC Tech Company</h1>
-                    <h1 class="text-2xl">June 2024 - Present</h1>
+                    <h1 class="text-4xl">EXPERIENCE</h1>
+                </div>
+                <div class="flex flex-col gap-y-4 text-left">
+                    <div>
+                        <h1 class="text-2xl">Software Developer Intern</h1>
+                        <h1 class="text-2xl">ABC Tech Company</h1>
+                        <h1 class="text-2xl">June 2024 - Present</h1>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl">Software Developer Intern</h1>
+                        <h1 class="text-2xl">ABC Tech Company</h1>
+                        <h1 class="text-2xl">June 2024 - Present</h1>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+
 
 
 
