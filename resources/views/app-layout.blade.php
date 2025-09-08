@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 
     @vite('resources/css/app.css')
 </head>
@@ -55,5 +56,8 @@
         </main>
     </div>
 </body>
+<footer class="text-center text-white text-md p-3">
+    <h3>Copyright © 2025 Martin Oca</h3>
+</footer>
 
 </html>
