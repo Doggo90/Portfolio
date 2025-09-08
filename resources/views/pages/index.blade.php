@@ -63,6 +63,7 @@
     </div>
     {{--                                    ABOUT ME                            --}}
     <div class="min-h-screen flex items-center justify-center p-4 mx-5 animate-fade-in" id="About">
+        
         <div class="flex items-center space-x-4 max-w-4xl">
             <div class="hidden sm:block flex-shrink-0 me-5 pe-5">
                 <img src="../profile.jpg" alt="Martin" class="rounded-full h-40 w-40">
