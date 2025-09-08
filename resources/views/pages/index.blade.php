@@ -1,16 +1,19 @@
 @extends('app-layout')
 @section('content')
     @include('components.navbar', ['title' => 'Index'])
-    {{--                                    INTRODUCTION                            --}}
-    <a href="#" class="fixed bottom-4 right-4 z-50 bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400">
-    <!-- Optional icon or text -->
-    <span>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75 12 3m0 0 3.75 3.75M12 3v18" />
-</svg>
+    {{--                                    BACK TO TOP BUTTON                            --}}
+    <a href="#"
+        class="fixed bottom-4 right-4 z-50 bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400">
+        <!-- Optional icon or text -->
+        <span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75 12 3m0 0 3.75 3.75M12 3v18" />
+            </svg>
 
-    </span>
-</a>
+        </span>
+    </a>
+    {{--                                    INTRODUCTION                            --}}
     <div class="min-h-screen mb-0 flex items-center justify-center animate-fade-in">
         <div class="max-w-screen-xl mx-auto text-center p-4">
             <h1 class="text-6xl font-semibold text-gray-800 dark:text-white">Hi there! I'm Martin,
@@ -125,23 +128,79 @@
         </div>
     </div>
     {{--                          PROJECTS SECTION                   --}}
-    <div class="min-h-screen flex items-center justify-center">
-        <div class="max-w-screen-xl mx-auto text-center">
+    <div class="min-h-screen grid grid-col-1 sm:grid-cols-3 place-items-center">
+        <div class="max-w-screen-xl mx-auto text-center col-span-1 sm:col-span-3">
             <h1 class="text-6xl text-white">
                 PROJECTS SECTION
             </h1>
-
+        </div>
+        <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
+            <div class="px-6 py-4 text-gray-100">
+                <div class="font-bold text-xl mb-2">Task Me</div>
+                <p class="text-gray-300 text-base">
+                    A Create, Edit, Delete a Task App. Built to be like a post it note on pending tasks.
+                </p>
+            </div>
+            <div class="px-6 pt-4 pb-2 text-white">
+                 <span
+                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">PHP</span>
+                <span
+                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Laravel</span>
+                <span
+                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">MySQL</span>
+                <span
+                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Blade</span>
+            </div>
+        </div>
+        <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
+            <div class="px-6 py-4 text-gray-100">
+                <div class="font-bold text-xl mb-2">Finesse Me</div>
+                <p class="text-gray-300 text-base">
+                    A budgeting app with model relationships attached. Costs can be deducted from the models according to the items' costs.
+                </p>
+            </div>
+            <div class="px-6 pt-4 pb-2 text-white">
+                 <span
+                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">PHP</span>
+                <span
+                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Laravel</span>
+                <span
+                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">MySQL</span>
+                <span
+                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Blade</span>
+            </div>
+        </div>
+        <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
+            <div class="px-6 py-4 text-gray-100">
+                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                <p class="text-gray-300 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
+                    perferendis eaque, exercitationem praesentium nihil.
+                </p>
+            </div>
+            <div class="px-6 pt-4 pb-2 text-white"> 
+                 <span
+                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">PHP</span>
+                <span
+                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Laravel</span>
+                <span
+                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">MySQL</span>
+                <span
+                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Blade</span>
+            </div>
         </div>
     </div>
     {{--                            TECHNOLOGIES SECTION                    --}}
-    <div class="min-h-screen grid grid-cols-1 sm:grid-cols-3 place-items-center gap-y-6 animate-fade-in" id="Technologies" >
+    <div class="min-h-screen grid grid-cols-1 sm:grid-cols-3 place-items-center gap-y-6 animate-fade-in"
+        id="Technologies">
         <div class="max-w-screen-xl mx-auto text-center col-span-3">
             <h1 class="text-6xl text-white">
                 TECHNOLOGIES SECTION
             </h1>
 
         </div>
-        <div class="col-span-3 sm:col-auto border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
+        <div
+            class="col-span-3 sm:col-auto border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
             {{-- <h1>php</h1> --}}
             <svg viewBox="0 0 128 128" width="200" height="150">
                 <path fill="url(#a)"
@@ -180,7 +239,8 @@
             </svg>
 
         </div>
-        <div class="col-span-3 sm:col-auto border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
+        <div
+            class="col-span-3 sm:col-auto border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
             {{-- <h1>laravel</h1> --}}
 
             <svg viewBox="0 0 128 128" width="200" height="150">
@@ -190,7 +250,8 @@
             </svg>
 
         </div>
-        <div class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
+        <div
+            class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
             {{-- <h1>livewire</h1> --}}
             <svg viewBox="0 0 128 128" width="200" height="150">
                 <path style="fill-rule:evenodd;fill:#fb70a9;fill-opacity:1"
@@ -220,7 +281,8 @@
             </svg>
 
         </div>
-        <div class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
+        <div
+            class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
             {{-- <h1>filament</h1> --}}
             <svg viewBox="0 0 128 128" width="200" height="150">
                 <path fill="#ffff00"
@@ -229,7 +291,8 @@
             </svg>
 
         </div>
-        <div class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
+        <div
+            class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
             {{-- <h1>tailwind</h1> --}}
             <svg viewBox="0 0 128 128" width="200" height="150">
                 <path
@@ -237,7 +300,8 @@
                     fill="#38bdf8"></path>
             </svg>
         </div>
-        <div class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
+        <div
+            class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
             {{-- <h1>apache</h1> --}}
             <svg viewBox="0 0 128 128" width="200" height="150" style="fill:rgb(235, 4, 4)">
                 <path
@@ -246,7 +310,8 @@
             </svg>
 
         </div>
-        <div class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
+        <div
+            class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
             {{-- <h1>
                     MYSQL
                 </h1> --}}
@@ -264,7 +329,8 @@
             </svg>
 
         </div>
-        <div class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
+        <div
+            class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
             {{-- <h1>
                 Alphine JS
             </h1> --}}
@@ -280,7 +346,8 @@
             </svg>
 
         </div>
-        <div class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
+        <div
+            class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
             {{-- <h1>composer</h1> --}}
 
             <svg viewBox="0 0 128 128" width="200" height="150" style="fill:#fff">
@@ -306,7 +373,8 @@
             </svg>
 
         </div>
-        <div class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
+        <div
+            class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
             {{-- <h1>
                 git
             </h1> --}}
@@ -318,7 +386,8 @@
             </svg>
 
         </div>
-        <div class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
+        <div
+            class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
             {{-- <h1>
                 github
             </h1> --}}
@@ -335,7 +404,8 @@
             </svg>
 
         </div>
-        <div class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
+        <div
+            class="col-span-3 sm:col-span-1 border-4 border-gray-900 bg-gray-900 hover:bg-gray-700 p-4 transition  duration-100 ease-in-out hover:-translate-y-1 hover:scale-110   ">
             {{-- <h1>
                 vs code
             </h1> --}}
