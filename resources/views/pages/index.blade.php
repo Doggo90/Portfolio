@@ -16,9 +16,9 @@
     {{--                                    INTRODUCTION                            --}}
     <div class="min-h-screen mb-0 flex items-center justify-center animate-fade-in">
         <div class="max-w-screen-xl mx-auto text-center p-4">
-            <h1 class="text-6xl font-semibold text-gray-800 dark:text-white">Hi there! I'm Martin,
+            <h1 class="text-6xl font-semibold text-gray-800 dark:text-white">Hi there! I'm <span class="text-lime-400">Martin</span>,
             </h1>
-            <p class="text-4xl mt-4 text-gray-600 dark:text-gray-400">Back-end developer specialized in <span
+            <p class="text-4xl mt-4 text-gray-600 dark:text-gray-400">Back-end developer specializing in <span
                     class="text-violet-500"> PHP</span>
                 framework <span class="text-red-500">Laravel.</span>
             </p>
@@ -62,15 +62,14 @@
 
     </div>
     {{--                                    ABOUT ME                            --}}
-    <div class="min-h-screen flex items-center justify-center p-4 mx-5 animate-fade-in" id="About">
-        
+    <div class="min-h-screen flex items-center justify-center p-4 mx-5 animate-fade-in" id="About">   
         <div class="flex items-center space-x-4 max-w-4xl">
             <div class="hidden sm:block flex-shrink-0 me-5 pe-5">
                 <img src="../profile.jpg" alt="Martin" class="rounded-full h-40 w-40">
             </div>
             <div class="flex-grow ms-5 ps-5">
                 <p class="text-md flex justify-center align-center mb-5 pb-5">
-                    <span class="text-6xl text-white font-semibold">About Me</span>
+                    <span class="text-6xl text-white font-semibold">About <span class="text-lime-400">Me</span></span>
                 </p>
                 <h1 class="text-xl text-white text-justify leading-loose">
                     <span class="font-bold">Programming</span> is my passion—a hobby, a challenge, and a tool for growth. I
@@ -132,7 +131,9 @@
     <div class="min-h-screen grid grid-col-1 sm:grid-cols-3 place-items-center" id="Projects">
         <div class="max-w-screen-xl mx-auto text-center col-span-1 sm:col-span-3">
             <h1 class="text-6xl text-white">
-                PROJECTS SECTION
+                Recent <span class="text-purple-500">
+                    Projects
+                </span> 
             </h1>
         </div>
         <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
