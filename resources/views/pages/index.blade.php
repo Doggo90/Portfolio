@@ -129,11 +129,30 @@
         </div>
     </div>
     {{--                          PROJECTS SECTION                   --}}
-    <div class="min-h-screen grid grid-col-1 sm:grid-cols-3 place-items-center">
+    <div class="min-h-screen grid grid-col-1 sm:grid-cols-3 place-items-center" id="Projects">
         <div class="max-w-screen-xl mx-auto text-center col-span-1 sm:col-span-3">
             <h1 class="text-6xl text-white">
                 PROJECTS SECTION
             </h1>
+        </div>
+        <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
+            <div class="px-6 py-4 text-gray-100">
+                <div class="font-bold text-xl mb-2">Academic Forum </div>
+                <p class="text-gray-300 text-base">
+                    A social media platform directed at university students at my alma mater.
+                    It has complete package with admin panel. Basic social media interactions, Notifications, Mentions
+                </p>
+            </div>
+            <div class="px-6 pt-4 pb-2 text-white"> 
+                 <span
+                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">PHP</span>
+                <span
+                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Laravel</span>
+                <span
+                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">MySQL</span>
+                <span
+                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Blade</span>
+            </div>
         </div>
         <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
             <div class="px-6 py-4 text-gray-100">
@@ -171,32 +190,14 @@
                     class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Blade</span>
             </div>
         </div>
-        <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
-            <div class="px-6 py-4 text-gray-100">
-                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p class="text-gray-300 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
-                    perferendis eaque, exercitationem praesentium nihil.
-                </p>
-            </div>
-            <div class="px-6 pt-4 pb-2 text-white"> 
-                 <span
-                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">PHP</span>
-                <span
-                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Laravel</span>
-                <span
-                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">MySQL</span>
-                <span
-                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Blade</span>
-            </div>
-        </div>
     </div>
     {{--                            TECHNOLOGIES SECTION                    --}}
     <div class="min-h-screen grid grid-cols-1 sm:grid-cols-3 place-items-center gap-y-6 animate-fade-in"
         id="Technologies">
         <div class="max-w-screen-xl mx-auto text-center col-span-3">
             <h1 class="text-6xl text-white">
-                TECHNOLOGIES SECTION
+                <span class="text-purple-500"> Tech Stack
+                </span>
             </h1>
 
         </div>
